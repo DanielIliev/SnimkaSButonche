@@ -12,4 +12,14 @@ class Dashboard extends Controller
     {
     	 return view('Dashboard');
     }
+
+    public function Tenants()
+    {
+
+    }
+
+    public function Properties()
+    {
+    	
+    }
 }

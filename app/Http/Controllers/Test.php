@@ -6,11 +6,10 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class Administration extends Controller
+class Test extends Controller
 {
-    //
     public function index()
     {
-    	return "";
+    	return view('');
     }
 }

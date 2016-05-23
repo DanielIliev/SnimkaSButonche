@@ -21,3 +21,5 @@ Route::get('/Dashboard', 'Dashboard@index');
 Route::get('/blade', function () {
     return view('Page',array('var' => 'some varriable'));
 });
+
+Route::get('/Test', 'Test@index');

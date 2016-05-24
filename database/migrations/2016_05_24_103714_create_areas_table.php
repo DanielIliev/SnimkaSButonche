@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePhonesTable extends Migration
+class CreateAreasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,9 @@ class CreatePhonesTable extends Migration
      */
     public function up()
     {
-        Schema::create('phones', function (Blueprint $table) {
+        Schema::create('areas', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('holder_id')->unsigned(); 
-            $table->enum('owner_or_tenant',['owner','tenant']);
-            $table->string('phone',10)->unique();
+            $table->string('area');
         });
     }
 
@@ -27,6 +25,6 @@ class CreatePhonesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('phones');
+        Schema::drop('areas');
     }
 }

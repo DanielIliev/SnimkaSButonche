@@ -17,7 +17,7 @@ class CreatePropertiesTable extends Migration
             $table->increments('id');
             $table->integer('owner_id')->unsigned();
             $table->string('city');
-            $table->string('area');
+            $table->integer('area')->unsigned();
             $table->string('address');
             $table->double('rent',8,2)->unsigned();
             $table->boolean('available');

@@ -17,8 +17,8 @@ class CreateTenantsTable extends Migration
             $table->string('first_name');
             $table->string('middle_name');
             $table->string('last_name');
-            $table->string('phone',10)->unique();
-            $table->string('searching_area');
+            //$table->string('phone',10)->unique(); //many 
+            $table->string('searching_area');  //many; CSV; Area IDs
             $table->double('with_rent',8,2)->unsigned();
         });
     }

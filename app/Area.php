@@ -4,9 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Phone extends Model
+class Area extends Model
 {
     public $timestamps = false;
-
-
 }

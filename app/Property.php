@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Property extends Model
 {
+	use \Venturecraft\Revisionable\RevisionableTrait;
+	public static function boot() { parent::boot(); }
+
     public $timestamps = false;
 
     public function Owner()

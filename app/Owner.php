@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Owner extends Model
 {
+	use \Venturecraft\Revisionable\RevisionableTrait;
+	public static function boot() { parent::boot(); }
+	
 	public $timestamps = false;
 	
 	public function Properties()
@@ -17,5 +20,6 @@ class Owner extends Model
 	{
 		return $this->hasMany('App\Phone');
 	}
+
 
 }

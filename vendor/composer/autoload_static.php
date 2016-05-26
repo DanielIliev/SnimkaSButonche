@@ -277,6 +277,7 @@ class ComposerStaticInit862cf1090dab28cf7427c9a1a516b636
         'CreatePhonesTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_23_151005_create_phones_table.php',
         'CreatePropertiesTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_18_124543_create_properties_table.php',
         'CreateRevisionsTable' => __DIR__ . '/..' . '/venturecraft/revisionable/src/migrations/2013_04_09_062329_create_revisions_table.php',
+        'CreateTenantCallLogsTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_26_101321_create_tenant_call_logs_table.php',
         'CreateTenantsTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_23_152840_create_tenants_table.php',
         'CreateToursTable' => __DIR__ . '/../..' . '/database/migrations/2016_05_23_155504_create_tours_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',

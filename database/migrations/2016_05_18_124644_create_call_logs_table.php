@@ -14,14 +14,12 @@ class CreateCallLogsTable extends Migration
     {
         Schema::create('call_logs', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('owner_id')->unsigned();
+            $table->integer('holder_id')->unsigned();
+            $table->enum('owner_or_tenant',['owner','tenant']);
             $table->integer('property_id')->unsigned();
             $table->integer('user_id')->unsigned();
             $table->text('reply');
-            $table
-                ->foreign(array('owner_id'))
-                ->references(array('id'))
-                ->on('owners');
+
             $table
                 ->foreign(array('property_id'))
                 ->references(array('id'))

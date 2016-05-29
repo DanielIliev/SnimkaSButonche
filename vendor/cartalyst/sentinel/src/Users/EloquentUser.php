@@ -71,8 +71,8 @@ class EloquentUser extends Model implements RoleableInterface, PermissibleInterf
      *
      * @var array
      */
-    protected $loginNames = ['email','username'];
-
+    // protected $loginNames = ['email','username'];
+    protected $loginNames = ['username'];
     /**
      * The Eloquent roles model name.
      *

@@ -11,12 +11,34 @@
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::get('/', function() {
+	return view('home');
+})->name('home');
+
+Route::get('/sales', function() {
+	return view('sales');
+})->name('sales');
+
+Route::get('/loans', function() {
+	return view('loans');
+})->name('loans');
+
+Route::get('/additional', function() {
+	return view('additionalInfo');
+})->name('more_info');
+
+Route::get('/contact', function() {
+	return view('contact');
+})->name('contact');
 
 Route::get('/Administration', 'Administration@index');
-Route::get('/Administration/Registration', 'Registration@Create');
+Route::get('/Administration/Registration', 'Registration@Create')->name('register');
 Route::post('/Administration/Registration/Store', 'Registration@Store');
 Route::get('/Administration/Registration/Success', 'Registration@Success');
 

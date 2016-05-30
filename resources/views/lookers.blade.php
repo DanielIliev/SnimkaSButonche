@@ -1,14 +1,14 @@
 @extends('layouts.Master')
-@section('title', 'Продажби')
+@section('title', 'Наеми')
 @section('content')
 	<div class="table-responsive">
 		<table class='table table-bordered'>
 			<thead>
 				<tr>
 					<th>ID</th>
-					<th>Собственик</th>
-					<th>Контакти</th>
-					<th>Допълнителна информация</th>
+					<th>Име</th>
+					<th>Търсещ</th>
+					<th>Контакт</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -16,12 +16,10 @@
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 					<td>
-						<a href="{{ route('contact') }}">
-							Покажи
-						</a>
+						Колиба
 					</td>
 					<td>
-						<a href="{{ route('more_info') }}">
+						<a href="{{ route('contact') }}">
 							Покажи
 						</a>
 					</td>

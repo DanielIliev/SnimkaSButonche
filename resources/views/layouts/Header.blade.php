@@ -17,24 +17,19 @@
 				<div class="collapse navbar-collapse" id="navMenu">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="{{ route('sales') }}" class="btn navbar-btn">
-								Продажби
+							<a href="{{ route('property') }}" class="btn navbar-btn">
+								Имоти
 							</a>
 						</li>
 						<li>
-							<a href="{{ route('loans') }}" class="btn navbar-btn">
-								Наеми
-							</a>
-						</li>
-						<li>
-							<a href="{{ route('register') }}" class="btn navbar-btn">
-								Администриране
+							<a href="{{ route('lookers') }}" class="btn navbar-btn">
+								Наематели
 							</a>
 						</li>
 						<li>
 							<form class="navbar-form" role="search">
 								<div class="form-group">
-									<input type="text" value="" name="searchedType" class="form-control" placeholder="Търси по ID" required autocomplete="off"/>
+									<input type="text" value="" name="searchedType" class="form-control" placeholder="Телефон..." required autocomplete="off"/>
 								</div>
 								<input type="submit" class="btn navbar-btn" value="Търси" />
 							</form>

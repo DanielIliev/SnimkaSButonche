@@ -21,13 +21,13 @@ Route::get('/', function() {
 	return view('home');
 })->name('home');
 
-Route::get('/sales', function() {
-	return view('sales');
-})->name('sales');
+Route::get('/property', function() {
+	return view('property');
+})->name('property');
 
-Route::get('/loans', function() {
-	return view('loans');
-})->name('loans');
+Route::get('/lookers', function() {
+	return view('lookers');
+})->name('lookers');
 
 Route::get('/additional', function() {
 	return view('additionalInfo');

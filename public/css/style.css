@@ -8,7 +8,7 @@ html, body {
 	margin-left:0.5em;
 	border: 0.5px solid #9CC1E0;
 }
-.navbar, .btn {
+.navbar, .btn, .panel-heading {
 	color: #000 !important;
 	background: #deefff;
 	background: -moz-linear-gradient(top, #deefff 0%, #98bede 100%);

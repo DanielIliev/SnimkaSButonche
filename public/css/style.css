@@ -8,6 +8,17 @@ html, body {
 	margin-left:0.5em;
 	border: 0.5px solid #9CC1E0;
 }
+.gallery_img {
+	height: 200px;
+	width: 100%;
+}
+.gallery_img > img {
+	height: 100%;
+}
+.modal-img {
+	height: 400px;
+	width: 100%;
+}
 .navbar, .btn, .panel-heading {
 	color: #000 !important;
 	background: #deefff;

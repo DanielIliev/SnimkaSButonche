@@ -1,16 +1,6 @@
 @extends('layouts.Master')
 @section('title', 'Допълнителна Информация')
 @section('content')
-<style>
-	.gallery_img, .gallery_img > img {
-		height: 200px;
-		width: 100%;
-	}
-	.modal-img {
-		height: 400px;
-		width: 100%;
-	}
-</style>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 thumbnail" style="height:200px">

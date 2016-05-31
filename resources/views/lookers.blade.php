@@ -57,6 +57,14 @@
 							</tr>
 							<tr>
 								<th class="scope">
+									Ценови диапазон
+								</th>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<th class="scope">
 									Брой огледи
 								</th>
 								<td>

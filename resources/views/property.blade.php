@@ -17,8 +17,8 @@
 					<td>&nbsp;</td>
 					<td>&nbsp;</td>
 					<td class="options">
-						<a href="#imageModal" class="btn btn-default btn-lg" data-toggle="modal" title="Снимки">
-							<span class="glyphicon glyphicon-picture"></span>
+						<a href="#imageModal" class="btn btn-default modallinks" data-toggle="modal" title="Снимки">
+							<img class="img-btn" src="http://i.stack.imgur.com/e2S63.png" alt="" />
 						</a>
 						<a href="#infoModal" class="btn btn-default btn-lg" data-toggle="modal" title="Подробна информация">
 							<span class="glyphicon glyphicon-tags"></span>

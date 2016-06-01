@@ -29,10 +29,6 @@ Route::get('/lookers', function() {
 	return view('lookers');
 })->name('lookers');
 
-Route::get('/additional', function() {
-	return view('additionalInfo');
-})->name('more_info');
-
 Route::get('/contact', function() {
 	return view('contact');
 })->name('contact');
